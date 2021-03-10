@@ -1,0 +1,265 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Oswald', sans-serif;
+	background: #D3CCE3;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	background-attachment: fixed;
+
+
+}
+
+.menu {
+	background: #E5E7E9;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 1px;
+	background: rgba(44, 62, 80, 0.7);
+	display: flex;
+	justify-content: space-between; 
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.menu a {
+	text-decoration: none;
+	border: 1px solid;
+	padding-right: 40px;
+	padding-left: 40px;
+	color: #070707;
+	display: block;
+
+}	
+
+.welcome {
+	width: 795px;
+	height: 200px;
+	border: 1px solid;
+	
+	margin: 20px auto;
+	background: url(https://sun9-60.userapi.com/impf/Jv8LtmMtlY1vu-eYILIaHUJnE0TQZDdkVNiMzQ/BlfxTeVmtp0.jpg?size=795x200&quality=95&crop=0,0,1590,400&sign=7752d64899ae1b0374d5aad07cbaa94a&type=cover_group);
+} 
+
+
+.discription {
+	margin: 0 auto;
+	width: 795px;
+	height: 217px;
+	background: rgba(44, 62, 80,);
+	margin-bottom: 20px;
+} 
+
+
+.h1 {
+	text-align: center;
+	color: red;
+}
+
+
+.vber {
+	background: #F8C703;
+}
+
+.h2 {
+	text-align: center;
+}
+
+.courses {
+	border: 3px solid red;
+	display: flex; 
+	flex-wrap: wrap;
+	width: 728px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+
+.course {
+	border: 1px solid green;
+	
+	height: 300px;
+	width: 180px;
+}
+
+.contact {
+	text-align: center;
+}
+
+.certifikat {
+	text-align: center;
+}
+
+.kontact {
+	border: 5px solid green;
+	text-align: center;
+
+}
+
+.ssilka {
+	border: 1px solid yellow;
+	padding: 10px;
+	display: inline-block;
+	background: yellow;
+	margin: 10px 0px;
+	border-radius: 10px;
+
+}
+
+.cB {
+	text-align: center;
+}
+
+@-webkit-keyframes rainbowdropshadow {
+	0% {
+		text-shadow: 1px 1px 0 #FF0000, 2px 2px 0 #FF7F00, 3px 3px 0 #FFFF00;
+	}
+	8% {
+		text-shadow: 1px 1px 0 #FF7F00, 2px 2px 0 #FFFF00, 3px 3px 0 #7FFF00;
+	}
+	16% {
+		text-shadow: 1px 1px 0 #FFFF00, 2px 2px 0 #7FFF00, 3px 3px 0 #00FF00;
+	}
+	25% {
+		text-shadow: 1px 1px 0 #7FFF00, 2px 2px 0 #00FF00, 3px 3px 0 #00FF7F;
+	}
+	33% {
+		text-shadow: 1px 1px 0 #00FF00, 2px 2px 0 #00FF7F, 3px 3px 0 #00FFFF;
+	}
+	41% {
+		text-shadow: 1px 1px 0 #00FF7F, 2px 2px 0 #00FFFF, 3px 3px 0 #007FFF;
+	}
+	50% {
+		text-shadow: 1px 1px 0 #00FFFF, 2px 2px 0 #007FFF, 3px 3px 0 #0000FF;
+	}
+	58% {
+		text-shadow: 1px 1px 0 #007FFF, 2px 2px 0 #0000FF, 3px 3px 0 #7F00FF;
+	}
+	66% {
+		text-shadow: 1px 1px 0 #0000FF, 2px 2px 0 #7F00FF, 3px 3px 0 #FF00FF;
+	}
+	75% {
+		text-shadow: 1px 1px 0 #7F00FF, 2px 2px 0 #FF00FF, 3px 3px 0 #FF007F;
+	}
+	83% {
+		text-shadow: 1px 1px 0 #FF00FF, 2px 2px 0 #FF007F, 3px 3px 0 #FF0000;
+	}
+	91% {
+		text-shadow: 1px 1px 0 #FF007
+	}
+	100% {
+		text-shadow: 1px 1px 0 #FF0000, 2px 2px 0 #FF7F00, 3px 3px 0 #FFFF00;
+	}
+}
+
+.new {
+	font-size: 40px;
+	font-family: Helvetica, Arial;
+	font-style: italic;
+	text-shadow: 1px 1px 0 #000000;
+	-webkit-animation: rainbowdropshadow .5s infinite;
+	animation: rainbowdropshadow .5s infinite;
+}
+
+.med {
+	text-align: center;
+
+}
+
+.med {
+	margin: 0 auto;
+	width: 800px;
+	font-size: 30px;
+}
+
+.contact {
+	border: 1px solid red;
+	border-radius: 10px;
+	width: 800px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+
+.pras {
+	border: 5px solid red;
+	text-align: center;
+	width: 500px;
+	color: green;
+	margin: 0 auto;
+
+}
+
+
+
+.preim {
+	width: 1100px;
+	height: 625px;
+	background: url(../picture/salon.jpg);
+	margin: 0 auto;
+}
+
+
+.preim2 {
+	width: 250px;
+	height: 560px;
+	text-align: center;
+	font-weight: normal;
+	font-size: 30px;
+	color: #3498DB;
+	background: rgba(44, 62, 80, 0.7);
+	-webkit-box-shadow: -1px 0px 14px 24px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: -1px 0px 14px 24px rgba(0, 0, 0, 0.3);
+	box-shadow: -1px 0px 14px 24px rgba(0, 0, 0, 0.3);
+}
+
+
+h2 {
+	text-align: center;
+	font-size: 50px;
+	color: #F4D03F;
+}
+
+
+.flex {
+	display: flex;
+	justify-content: space-around;
+	border: 1px solid red;
+}
+
+.time {
+	width: 175px;
+	margin-top: 100px;
+}
+
+
+.client {
+	width: 200px;
+	margin-top: 45px;
+}
+
+
+.family {
+	width: 175px;
+	margin-top: 90px;
+}
+
+
+.title {
+	font-weight: normal;
+	font-size: 30px;
+	color: red;
+}
+
+
+hr {
+	border: 3px solid black;
+	background: black;
+}
+
+
